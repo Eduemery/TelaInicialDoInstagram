@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-width: 100vh;
+    background-color: #F8F8FF;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.tela-inicial{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.cel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.cel img {
+    height: 50rem;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 22px 60px 22px 60px;
+    border: 1px solid lightgray;
+}
+.login img {
+    margin: 6px 6px 6px 6px;
+}
+.perfil img {
+    border-radius: 50%;
+}
+
+.insta-botao {
+    margin: 2px 2px 2px 2px;
+    padding: 6px 20px 6px 20px;
+    border: 1px solid #0099FF;
+    border-radius: 4px;
+    color: white;
+    background-color: #0099FF;
+}
+.insta-perg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+}
+.perg-link {
+    color: #0099FF;
+    margin: 0px 0px 0px 3px;
+    font-weight: 500;
+}
